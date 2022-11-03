@@ -1,10 +1,15 @@
 import react from 'react'
-import logo from './logo.svg';
+
+import Itemleft from './component/itemLeft.jsx';
+import Itemform from './component/itemForm.jsx'
 
 function App() {
   return (
     <>
-     
+     <section className="container">
+      <Itemleft/>
+      <Itemform/>
+     </section>
     </>
   );
 }
