@@ -4,7 +4,7 @@
 
 const ItemLeft = () =>{
     return (
-        <div className="item-container item-left">
+        <section className="item-container item-left">
           <div className="inner-item-left">
           <h2 className="title-item-left">
                Learn to code by watching others
@@ -14,7 +14,7 @@ const ItemLeft = () =>{
                Watching scripted tutorials is great, but understanding how developers think is invaluable.
            </p>
            </div>
-        </div>
+        </section>
     )
 }
 

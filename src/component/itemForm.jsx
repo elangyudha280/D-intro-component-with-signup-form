@@ -1,12 +1,13 @@
 
-
-
+import HeaderForm from './headerForm.jsx'
+import InputForm from './groupForm.jsx'
 
 const ItemForm = ()=>{
     return (
-        <div className="item-container">
-
-        </div>
+        <section className="item-container item-form">
+         <HeaderForm  />
+         <InputForm/>
+        </section>
     )
 }
 
