@@ -142,9 +142,9 @@
 .container .item-form .input-group .input-item .error-message {
   color: #ff7a7a;
   font-size: 0.6em;
-  text-align: end;
-  display: none;
-  margin-top: 5px;
+  margin-top: 3px;
+  visibility: hidden;
+  text-align: right;
   font-style: italic;
   font-weight: 600;
 }
@@ -162,7 +162,7 @@
 
 .container .item-form .input-group .btn-submit {
   width: 100%;
-  margin-top: -0.3em;
+  margin-top: 0;
   background: #38cc8c;
   -webkit-transition: 0.4s;
   transition: 0.4s;

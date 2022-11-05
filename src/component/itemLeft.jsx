@@ -1,7 +1,7 @@
 
 
 
-
+// COMPONENT LEFT CONTAINER 
 const ItemLeft = () =>{
     return (
         <section className="item-container item-left">

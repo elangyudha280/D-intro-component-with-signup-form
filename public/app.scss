@@ -133,9 +133,9 @@ $Neutral: (
         .error-message {
           color: map-get($primary, 'red');
           font-size: 0.6em;
-          text-align: end;
-          display: none;
-          margin-top: 5px;
+          margin-top: 3px;
+          visibility: hidden;
+          text-align: right;
           font-style: italic;
           font-weight: 600;
         }
@@ -151,7 +151,7 @@ $Neutral: (
       // CODE FOR BUTTON SUBMIT
       .btn-submit {
         width: 100%;
-        margin-top: -0.3em;
+        margin-top: 0;
         background: map-get($primary, 'green');
         transition: 0.4s;
         padding: 0.8em;
