@@ -114,7 +114,8 @@ $Neutral: (
         margin-bottom: 1.5em;
 
         .input-data {
-          border: 1px solid $Accent;
+          box-sizing: border-box;
+          border: 1px solid map-get($Neutral, 'GrayishBlue');
           width: 100%;
           border-radius: 0.3em;
           height: 100%;
@@ -125,6 +126,9 @@ $Neutral: (
           &::placeholder {
             font-weight: 600;
             text-transform: capitalize;
+          }
+          &:focus {
+            border: 2px solid $Accent;
           }
         }
         .input-data:invalid {
