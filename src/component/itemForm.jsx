@@ -6,7 +6,7 @@ import InputForm from './groupForm.jsx'
 // COMPONENT BAGIAN ITEM FORM ITEM RIGHT COMPONENT
 const ItemForm = ()=>{
     return (
-        <section className="item-container item-form" role="itemRight">
+        <section className="item-container item-form" role="contentinfo">
          <HeaderForm  />
          <InputForm/>
         </section>

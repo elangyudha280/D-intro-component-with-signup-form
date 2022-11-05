@@ -4,7 +4,7 @@
 // COMPONENT LEFT CONTAINER 
 const ItemLeft = () =>{
     return (
-        <section className="item-container item-left" role="itemLeft">
+        <section className="item-container item-left" role="contentinfo">
           <div className="inner-item-left">
           <h2 className="title-item-left">
                Learn to code by watching others
